@@ -1,6 +1,39 @@
+# What is IronXL?
+[IronXL](https://ironsoftware.com/csharp/excel/) is an Excel library for .NET developers which provides the easiest way to communicate with Excel(XLS, XLSX, CSV and TSV ) files, without any dependencie, even without using `Microsoft.Office.Interop.Excel` library and installation of  `Microsoft Office` on target machine.You can get rid of a lot of complicated lines of code and can use `IronXL` to get the easiest way. It provides all type of functions which can be required by developer e.g:
+* Create new Excel file, insert data programmatically using Excel functions and set the style (font,color,bold,italic and other cell properties) as well.
+* Import Excel file in the project ,use its data effectively and manipulate it programmatically.
+* Behave with Excel file as Dataset and Datatables.
 
+**`IronXL` supports the following:**
+* Net Framework 4.5+ (C#, VB.Net,ASP.Net WebForms and MVC)
+* Net Core 2+
+* Net Standard
+* Xamarin
+* Windows Application(Desktop applications)
+* Windows Mobile
+* Mono
+* Azure Cloud hosting
+  
+**Supported Operating System(OS):**
+* Windows
+* MacOS
+* Linux
+* iOS
+* Andriod
+
+## `IronXL` Installation:
+There are two following ways to install `IronXL` 
+
+### 1. Using NuGet Package:
+Using NuGet Package Manager in Visual Studio project, you can browse the `IronXL.Excel` and and install it.
+> PM > Install-Package IronXL.Excel
+
+`IronXL` classes can be access using `IronXL` namespace.
+### 2. By Downloading IronXL.dll
+[Download IronXL.dll](https://ironsoftware.com/csharp/excel/) and add its reference in your project. `IronXL` classes can be access using `IronXL` namespace.
+ 
 # How to Use Excel in C# Without Interop?
-`IronXl` provides simplest way to use excel file in your C#  project without using Interop. it is very easy to communicate with excel file ,getting data from it and use it in your project.You can get rid of a lot of complicated lines of code and can use `IronXL` to get the easiest way.
+`IronXl` provides simplest way to use excel file in your C#  project without using Interop. it is very easy to communicate with excel file ,getting data from it and use it in your project.
 ## Access excel file in project: 
 `WorkBook` is the class  `ironXL` whose object provides full eccess of excel file and its whole functions to the developers.for example if we want to access excel file,it is very easy as below:
 ```c# 
@@ -69,7 +102,6 @@ Console.ReadKey();
 ![output](https://github.com/ubaid4/ironxl/blob/master/doc3_input1.png)
 
 **Screeshot of excel file `Sample.xlsx` is**
-
 ![output](https://github.com/ubaid4/ironxl/blob/master/doc3_1.png)
 
 It can be observed that how much easy to use excel file data in our project without using Interop.
@@ -103,7 +135,5 @@ Console.ReadKey();
 
 **Screeshot of excel file `Sample.xlsx` is**
 ![output](https://github.com/ubaid4/ironxl/blob/master/doc3_2.png)
-
-
 
 
